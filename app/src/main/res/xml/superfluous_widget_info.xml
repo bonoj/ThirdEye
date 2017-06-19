@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/widget_width"
+    android:minHeight="@dimen/standard_icon"
+    android:updatePeriodMillis="@integer/milliseconds_per_hour"
+    android:initialLayout="@layout/superfluous_widget"
+    android:resizeMode="horizontal"
+    android:widgetCategory="home_screen|keyguard"
+    android:previewImage="@drawable/ic_restaurant_black_48dp">
+</appwidget-provider>

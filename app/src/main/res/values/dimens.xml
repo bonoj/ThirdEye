@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Permissions -->
+    <dimen name="half_icon">24dp</dimen>
+    <dimen name="app_name_text">22sp</dimen>
+    <dimen name="permissions_margin">4dp</dimen>
+
+    <!-- Overlay -->
+    <dimen name="canvas_text_size">20sp</dimen>
+    <dimen name="canvas_rectangle_corner_radius">5dp</dimen>
+    <dimen name="canvas_rectangle_right_margin">5dp</dimen>
+    <dimen name="canvas_rectangle_outline">2dp</dimen>
+    <dimen name="canvas_y_step">40dp</dimen>
+
+    <!-- Details -->
+    <dimen name="details_photo_height">300dp</dimen>
+    <dimen name="details_header_height">100dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="standard_icon">48dp</dimen>
+    <dimen name="header_text">30sp</dimen>
+    <dimen name="sub_header_text">18sp</dimen>
+    <dimen name="inset_margin">32dp</dimen>
+    <dimen name="divider_line">1dp</dimen>
+
+    <!-- Refine Search -->
+    <dimen name="button_diameter">80dp</dimen>
+    <dimen name="button_outline">2dp</dimen>
+
+    <!-- Widget -->
+    <dimen name="widget_width">220dp</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#008ba3</color>
+    <color name="colorPrimaryLight">#62efff</color>
+    <color name="colorAccent">#ffc107</color>
+
+    <color name="defaultBlack">#212121</color>
+    <color name="restaurantRed">#b71c1c</color>
+    <color name="cafeBrown">#795548</color>
+    <color name="barGreen">#009688</color>
+    <color name="parkGreen">#33691e</color>
+    <color name="bookstoreBlue">#1976d2</color>
+    <color name="galleryPurple">#673ab7</color>
+    <color name="moviePurple">#9c27b0</color>
+    <color name="lodgingOrange">#ff6f00</color>
+    <color name="groceryGreen">#2e7d32</color>
+    <color name="atmGold">#fbc02d</color>
+    <color name="pharmacyRed">#e53935</color>
+    <color name="transitBlue">#0288d1</color>
+
+    <color name="defaultStatusBar">#000000</color>
+    <color name="restaurantStatusBar">#7f0000</color>
+    <color name="cafeStatusBar">#4b2c20</color>
+    <color name="barStatusBar">#00675b</color>
+    <color name="parkStatusBar">#003d00</color>
+    <color name="bookstoreStatusBar">#004ba0</color>
+    <color name="galleryStatusBar">#320b86</color>
+    <color name="movieStatusBar">#6a0080</color>
+    <color name="lodgingStatusBar">#c43e00</color>
+    <color name="groceryStatusBar">#005005</color>
+    <color name="atmStatusBar">#c49000</color>
+    <color name="pharmacyStatusBar">#ab000d</color>
+    <color name="transitStatusBar">#005b9f</color>
+
+    <color name="deactivatedButton">#cfcfcf</color>
+</resources>

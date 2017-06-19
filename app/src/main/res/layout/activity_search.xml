@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hk47.realityoverlay.ui.SearchActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/standard_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cafes_button"
+            android:onClick="onCafesButtonClicked"
+            android:contentDescription="@string/cafes"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_local_cafe_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/restaurants_button"
+            android:onClick="onRestaurantsButtonClicked"
+            android:contentDescription="@string/restaurants"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_restaurant_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/bars_button"
+            android:onClick="onBarsButtonClicked"
+            android:contentDescription="@string/bars"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_local_bar_black_48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/parks_button"
+            android:onClick="onParksButtonClicked"
+            android:contentDescription="@string/parks"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_nature_people_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/bookstores_button"
+            android:onClick="onBookstoresButtonClicked"
+            android:contentDescription="@string/bookstores"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_import_contacts_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/galleries_button"
+            android:onClick="onGalleriesButtonClicked"
+            android:contentDescription="@string/galleries"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_palette_black_48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/movies_button"
+            android:onClick="onMoviesButtonClicked"
+            android:contentDescription="@string/movies"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_local_movies_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/lodgings_button"
+            android:onClick="onLodgingsButtonClicked"
+            android:contentDescription="@string/lodgings"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_hotel_black_48dp" />
+
+        <ImageButton
+            android:id="@+id/groceries_button"
+            android:onClick="onGroceriesButtonClicked"
+            android:contentDescription="@string/groceries"
+            android:layout_margin="@dimen/half_margin"
+            android:layout_width="@dimen/button_diameter"
+            android:layout_height="@dimen/button_diameter"
+            android:background="@drawable/deactivated_button"
+            android:src="@drawable/ic_shopping_cart_black_48dp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/atms_button"
+                android:onClick="onAtmsButtonClicked"
+                android:contentDescription="@string/atms"
+                android:layout_margin="@dimen/half_margin"
+                android:layout_width="@dimen/button_diameter"
+                android:layout_height="@dimen/button_diameter"
+                android:background="@drawable/deactivated_button"
+                android:src="@drawable/ic_local_atm_black_48dp" />
+
+            <ImageButton
+                android:id="@+id/pharmacies_button"
+                android:onClick="onPharmaciesButtonClicked"
+                android:contentDescription="@string/pharmacies"
+                android:layout_margin="@dimen/half_margin"
+                android:layout_width="@dimen/button_diameter"
+                android:layout_height="@dimen/button_diameter"
+                android:background="@drawable/deactivated_button"
+                android:src="@drawable/ic_local_pharmacy_black_48dp" />
+
+            <ImageButton
+                android:id="@+id/transit_button"
+                android:onClick="onTransitButtonClicked"
+                android:contentDescription="@string/transit"
+                android:layout_margin="@dimen/half_margin"
+                android:layout_width="@dimen/button_diameter"
+                android:layout_height="@dimen/button_diameter"
+                android:background="@drawable/deactivated_button"
+                android:src="@drawable/ic_directions_bus_black_48dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
