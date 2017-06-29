@@ -24,7 +24,7 @@ The user's bearing to and distance from each nearby location is calculated
 in real time as the device's location and orientation change.
 
 #### Refine Search Activity
-User can modify the Places API search URL by toggling nearby cafes, 
+Users can modify the Places API search URL by toggling nearby cafes, 
 bars, restaurants, parks, bookstores, art galleries, movie theatres, 
 lodgings, grocery stores, ATMs, pharmacies, and transit stations.
 
